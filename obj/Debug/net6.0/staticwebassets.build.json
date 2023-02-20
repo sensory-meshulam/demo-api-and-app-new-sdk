@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "zCx/lEqm0j9Y9OsCicxq1miO2dyQgSPye3+44XCUXvE=",
+  "Source": "demo-api",
+  "BasePath": "_content/demo-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "demo-api\\wwwroot",
+      "Source": "demo-api",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\",
+      "BasePath": "_content/demo-api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\Client\\index.html",
+      "SourceId": "demo-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\",
+      "BasePath": "_content/demo-api",
+      "RelativePath": "Client/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\Client\\index.js",
+      "SourceId": "demo-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\",
+      "BasePath": "_content/demo-api",
+      "RelativePath": "Client/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\index.js"
+    }
+  ]
+}
