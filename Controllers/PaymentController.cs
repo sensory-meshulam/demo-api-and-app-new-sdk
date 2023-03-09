@@ -13,10 +13,15 @@ namespace demo_api.Controllers
         const string MeshulamPageCode = "539888f537b7";
         const string MeshulamApiKey = "b60e1d4cbd29";
         const string MeshulamUserId = "cf2ebf779f618e59";
+        const string MeshulamApiUrl = "https://sandbox.meshulam.co.il/api/light/server/1.0/";
+
+        // keys for production (you need to change also in index.html to "PRODUCTION"):
         //const string MeshulamPageCode = "72787ad202d0";
         //const string MeshulamApiKey = "1fac7e41f501";
         //const string MeshulamUserId = "ef28478f841d8eab";
-        const string MeshulamApiUrl = "https://sandbox.meshulam.co.il/api/light/server/1.0/";
+        //const string MeshulamApiUrl = "https://secure.meshulam.co.il/api/light/server/1.0/";
+
+
 
         [HttpPost]
         public async Task<GenericResultDto> GetPaymentLink([FromBody]GetPaymentLinkRequest req)
