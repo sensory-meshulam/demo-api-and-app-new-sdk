@@ -1,6 +1,4 @@
-﻿console.log("blabla")
-
-const apiUrl = 'https://localhost:44374';
+﻿const apiUrl = 'https://localhost:44374';
 let resultStatus; //boolean
 let resultData;
 
@@ -20,7 +18,6 @@ const options = {
 }
 
 async function getPaymentLink() {
-    console.log("i am getPaymentLink method!!!!!!")
     const response = await fetch(`${apiUrl}/api/Payment/GetPaymentLink`, options); //response in format {isSuccess: boolean, message: string (link or error-message)}
     const data = await response.json();
     console.log(data.message)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zCx/lEqm0j9Y9OsCicxq1miO2dyQgSPye3+44XCUXvE=",
+  "Hash": "DGbad6ZsKhQdAhTNqvd+pFHBJbDGCRAx6zOS2gAo3UA=",
   "Source": "demo-api",
   "BasePath": "_content/demo-api",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Client\\index.js"
+    },
+    {
+      "Identity": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\Client\\success.html",
+      "SourceId": "demo-api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MordechaiKatan\\source\\repos\\demo-api\\wwwroot\\",
+      "BasePath": "_content/demo-api",
+      "RelativePath": "Client/success.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Client\\success.html"
     }
   ]
 }
